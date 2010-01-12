@@ -3,13 +3,13 @@
 Summary: Real Kiosk extension for firefox
 Name: firefox-ext-adblock-plus
 Version: 1.1.2
-Release: %mkrel 3
+Release: %mkrel 4
 License: MPL
 Group:	Networking/WWW
 URL:	https://addons.mozilla.org/en-US/firefox/addon/1865
 Source: http://releases.mozilla.org/pub/mozilla.org/addons/1865/adblock_plus-%{version}-fx+sm+tb+fn.xpi
 BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
-Requires:	mozilla-firefox = %{firefox_epoch}:%{firefox_version}
+Requires:	mozilla-firefox => %{firefox_epoch}:%{firefox_version}
 BuildRequires:	firefox-devel
 
 %description
