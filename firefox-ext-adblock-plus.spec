@@ -10,8 +10,6 @@ URL:	https://addons.mozilla.org/en-US/firefox/addon/1865
 Source: http://releases.mozilla.org/pub/mozilla.org/addons/1865/adblock_plus-%{version}-fx+sm+tb+fn.xpi
 BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
 Requires:	mozilla-firefox = %{firefox_epoch}:%{firefox_version}
-Obsoletes:	mozilla-firefox-ext-blogrovr < %{version}-%{release}
-Provides:	mozilla-firefox-ext-blogrovr = %{version}-%{release}
 BuildRequires:	firefox-devel
 
 %description
