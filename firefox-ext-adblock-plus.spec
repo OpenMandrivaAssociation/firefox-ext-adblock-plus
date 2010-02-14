@@ -1,6 +1,6 @@
 %define _mozillaextpath %{firefox_mozillapath}/extensions
 
-Summary: Real Kiosk extension for firefox
+Summary: Adblocking extension for firefox
 Name: firefox-ext-adblock-plus
 Version: 1.1.3
 Release: %mkrel 1
