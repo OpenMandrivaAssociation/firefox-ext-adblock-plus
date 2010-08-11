@@ -1,5 +1,7 @@
 %define _mozillaextpath %{firefox_mozillapath}/extensions
 
+%define subrel 1
+
 Summary: Adblocking extension for firefox
 Name: firefox-ext-adblock-plus
 Version: 1.2
