@@ -1,16 +1,17 @@
 %define _mozillaextpath %{firefox_mozillapath}/extensions
+%define debug_package %{nil}
 
 Summary: Adblocking extension for firefox
 Name: firefox-ext-adblock-plus
-Version: 1.2
-Release: %mkrel 4
+Version: 1.2.2
+Release: %mkrel 1
 License: MPL
 Group:	Networking/WWW
-URL:	https://addons.mozilla.org/en-US/firefox/addon/1865
+URL: https://addons.mozilla.org/en-US/firefox/addon/1865
 Source: http://releases.mozilla.org/pub/mozilla.org/addons/1865/adblock_plus-%{version}-fx+sm+tb+fn.xpi
 BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
-Requires:	mozilla-firefox = %{firefox_epoch}:%{firefox_version}
-BuildRequires:	firefox-devel
+Requires: firefox = %{firefox_epoch}:%{firefox_version}
+BuildRequires: firefox-devel
 
 %description
 Ever been annoyed by all those ads and banners on the internet that often take
@@ -45,5 +46,3 @@ rm -rf %{buildroot}
 %defattr(0644,root,root,0755)
 %dir %firefox_mozillapath
 %{_mozillaextpath}
-
-
