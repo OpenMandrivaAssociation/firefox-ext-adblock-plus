@@ -3,8 +3,8 @@
 
 Summary: Adblocking extension for firefox
 Name: firefox-ext-adblock-plus
-Version: 1.3.1
-Release: %mkrel 2
+Version: 1.3.3
+Release: %mkrel 1
 License: MPL
 Group:	Networking/WWW
 URL: https://addons.mozilla.org/en-US/firefox/addon/1865
